@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #1c1917;
+    background-color: #FAF8F5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Silky smooth animations & transitions */
+@keyframes smoothFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes kenBurnsSmooth {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.045);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+.animate-smooth-fade {
+  animation: smoothFadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-ken-burns {
+  animation: kenBurnsSmooth 24s cubic-bezier(0.25, 1, 0.5, 1) infinite alternate;
+}
+
+/* Global smooth scrolling & delicate scrollbar */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f2eb;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cfc4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b8aea0;
+}

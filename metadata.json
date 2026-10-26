@@ -1,0 +1,6 @@
+{
+  "name": "TEN TACLES BD — Wholesale Clothing & Bulk Apparel Supply",
+  "description": "Premium Bangladesh-based wholesale apparel platform. Minimum order 24 pieces with standard 2-2-2-2 pack ratio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

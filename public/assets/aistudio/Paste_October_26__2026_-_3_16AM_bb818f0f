@@ -1,0 +1,1050 @@
+# TEN TACLES BD — COMPLETE WHOLESALE FASHION E-COMMERCE WEBSITE
+
+Act as a senior UI/UX designer, full-stack developer, and e-commerce architect. Build a premium, responsive, functional wholesale clothing e-commerce website for **TEN TACLES BD**, a Bangladesh-based wholesale clothing business.
+
+The website must closely follow the visual design, layout, product presentation, and shopping experience of the uploaded Dorjibari.com.bd reference screenshots, while using Ten Tacles BD branding and wholesale-specific ordering functionality.
+
+Do not build a generic template or a static landing page. Build a complete, cohesive website with reusable components, functional interactions, a wholesale ordering system, product catalogues, cart, checkout or order request flow, and backend readiness.
+
+---
+
+## 1. BRAND IDENTITY AND DESIGN DIRECTION
+
+**Brand:** TEN TACLES BD
+
+**Business type:** Wholesale clothing and bulk apparel supply.
+
+**Target customers:** Clothing retailers, shop owners, resellers, distributors, and bulk buyers.
+
+**Primary market:** Bangladesh.
+
+**Currency:** Bangladeshi Taka (BDT / ৳).
+
+**Suggested tagline:** "Quality Apparel. Wholesale Value."
+
+**Primary CTA:** "Shop Wholesale"
+
+**Secondary CTA:** "Explore Collections"
+
+### Visual direction
+
+Use the supplied Dorjibari screenshots as the primary design reference.
+
+The website should have:
+- A premium menswear fashion aesthetic.
+- A clean white background.
+- Black and dark-gray typography.
+- Large, high-quality product photographs.
+- Generous whitespace.
+- Minimal borders and subtle hover animations.
+- Elegant navigation and product grids.
+- Clean, professional product detail pages.
+- A polished desktop experience and fully responsive mobile layout.
+
+Use a modern sans-serif font such as Inter.
+
+Avoid excessive gradients, bright decorative colours, oversized rounded cards, unnecessary shadows, glassmorphism, and generic dashboard-style design on customer-facing pages.
+
+Use the actual product images I upload. Do not replace them with unrelated stock photos or AI-generated clothing images when the supplied assets are available.
+
+Create a clean text-based TEN TACLES BD logo if a logo is not provided. If I upload an existing logo, use it instead.
+
+---
+
+## 2. HEADER AND NAVIGATION
+
+Create a clean, premium navigation system inspired by the reference website.
+
+### Announcement bar
+
+Add a slim, configurable announcement bar with text such as:
+
+"WHOLESALE ORDERS ONLY | MINIMUM ORDER: 24 PIECES"
+
+### Main header
+
+Include:
+- TEN TACLES BD logo on the left.
+- Main navigation in the center.
+- Search icon.
+- Customer account icon.
+- Wishlist icon.
+- Shopping cart icon with a live item count.
+
+### Navigation links
+
+- Home
+- New Arrivals
+- Polo Shirts
+- T-Shirts
+- Casual Shirts
+- Wholesale Collections
+- About Us
+- Contact Us
+
+Make the header sticky on scroll.
+
+Implement working category dropdowns where appropriate.
+
+On mobile, create a compact responsive header with a hamburger menu, logo, search, and cart.
+
+Do not include menu items that lead to nowhere.
+
+---
+
+## 3. HOMEPAGE HERO BANNER
+
+Reproduce the large, full-width fashion hero banner shown in the first Dorjibari screenshot.
+
+### Layout
+
+- Large edge-to-edge desktop banner.
+- High-quality fashion campaign photography.
+- Multiple configurable slides.
+- Left and right navigation arrows.
+- Pagination dots.
+- Minimal text overlay.
+- Clear call-to-action buttons.
+- Appropriate image cropping for mobile devices.
+
+### Suggested first slide
+
+Headline:
+
+"WHOLESALE FASHION. MADE FOR BUSINESS."
+
+Supporting text:
+
+"Discover quality apparel in bulk for retailers, resellers, and growing businesses."
+
+Primary button: "SHOP WHOLESALE"
+
+Secondary button: "EXPLORE COLLECTIONS"
+
+Use my supplied campaign images and position the model and text carefully.
+
+The hero must be visually striking but not cluttered.
+
+Implement working slider controls, smooth transitions, and responsive image positioning.
+
+---
+
+## 4. IMAGE-BASED CATEGORY SECTION
+
+Directly beneath the hero banner, create four large category tiles similar to the image tiles in the reference screenshot.
+
+Suggested categories:
+
+1. POLO SHIRTS
+2. T-SHIRTS
+3. CASUAL SHIRTS
+4. WHOLESALE COLLECTIONS
+
+Each tile must have:
+- A large category image.
+- A centered category label.
+- A subtle hover effect.
+- A clickable link to its collection page.
+
+Use consistent image dimensions and spacing.
+
+Desktop: four tiles in one centered row.
+
+Tablet: two columns.
+
+Mobile: two columns or a swipeable category layout.
+
+Make categories configurable so the business can add or remove categories later.
+
+Use supplied category photographs whenever available.
+
+---
+
+## 5. NEW ARRIVALS PRODUCT GRID
+
+Create a premium section titled:
+
+"NEW ARRIVALS"
+
+Place thin horizontal lines on both sides of the heading and a small "View All" link underneath, matching the reference website's visual style.
+
+### Product grid
+
+- Four columns on desktop.
+- Two columns on mobile.
+- Responsive tablet layout.
+- Large product photographs.
+- Consistent image proportions.
+- Clean product names and pricing.
+- Minimal spacing and typography.
+
+Each product card should display:
+- Main product image.
+- Optional secondary image on hover.
+- Product name.
+- Wholesale price per piece in BDT.
+- Colour availability.
+- MOQ badge: "MOQ: 24 PCS".
+- Wishlist heart icon.
+- Quick View icon.
+- Quick Add button.
+
+Use real product information wherever supplied.
+
+Do not invent actual wholesale prices, stock counts, discounts, ratings, or customer reviews.
+
+Use clearly identified demo data only when needed to demonstrate the interface.
+
+### Quick View
+
+Clicking Quick View must open a functional modal containing:
+- Product images.
+- Product name.
+- Wholesale price.
+- Available colours.
+- Sizes 30, 32, 34, 36, where applicable.
+- MOQ information.
+- A size and colour quantity selector.
+- A working Add to Cart action.
+
+Quick Add must never bypass MOQ validation or variant selection requirements.
+
+---
+
+## 6. ADDITIONAL HOMEPAGE SECTIONS
+
+After New Arrivals, create the following sections using the same visual design system.
+
+### A. Best Sellers
+
+Display selected products in the same premium product-card layout.
+
+Make featured products configurable from the admin panel.
+
+### B. Wholesale Benefits
+
+Create a restrained four-column section with simple icons and short descriptions.
+
+Suggested items:
+- Wholesale Pricing
+- Bulk Order Support
+- Multiple Colour Options
+- Order Management
+
+Keep claims factual and editable. Do not invent certifications, guarantees, or business achievements.
+
+### C. Wholesale Call-to-Action Banner
+
+Headline:
+
+"READY TO STOCK YOUR STORE?"
+
+Supporting text:
+
+"Explore our collections and build your wholesale order."
+
+Button:
+
+"BROWSE PRODUCTS"
+
+Use a supplied clothing or campaign image if appropriate.
+
+### D. About Ten Tacles BD
+
+Create a concise, professional brand introduction.
+
+Focus on apparel, wholesale ordering, and serving business customers.
+
+Keep all company information editable. Do not invent the company's history or physical location.
+
+### E. Newsletter
+
+Include an email subscription field with validation and success/error feedback.
+
+If no email marketing integration is configured, make the backend requirement clear rather than pretending subscriptions are being saved.
+
+### F. Footer
+
+Include:
+- Logo and short brand description.
+- Shop links.
+- Wholesale ordering information.
+- About Us.
+- Contact Us.
+- FAQ.
+- Shipping and Returns.
+- Privacy Policy.
+- Terms and Conditions.
+- Configurable social media links.
+- Copyright notice.
+
+Use placeholders for unprovided contact information.
+
+---
+
+## 7. PRODUCT CATALOGUE AND COLLECTION PAGES
+
+Build a working product catalogue with dedicated collection pages.
+
+### Collection pages
+
+Each collection should include:
+- Breadcrumb navigation.
+- Collection title.
+- Optional collection banner.
+- Product count.
+- Product grid.
+- Search within products.
+- Filters.
+- Sorting.
+- Pagination or a Load More option.
+
+### Filters
+
+Support:
+- Product category.
+- Colour.
+- Size.
+- Price range.
+- Availability, when real inventory data exists.
+
+### Sorting
+
+Support:
+- Newest arrivals.
+- Price: low to high.
+- Price: high to low.
+
+On desktop, use a clean filter sidebar or horizontal filter bar.
+
+On mobile, display filters in a slide-out drawer.
+
+Ensure search, filters, sorting, and pagination work with the actual product data.
+
+Display a helpful empty-results message when no products match the selection.
+
+---
+
+## 8. PRODUCT DETAIL PAGE — MATCH THE THIRD REFERENCE SCREENSHOT
+
+This page is one of the highest priorities.
+
+Closely reproduce the layout shown in the supplied third screenshot.
+
+### Desktop layout
+
+Use a two-column product page.
+
+**Left column:**
+- Large product image.
+- Image thumbnails.
+- Multiple product photographs.
+- Clickable thumbnails.
+- Optional zoom or lightbox.
+
+**Right column:**
+- Breadcrumbs.
+- Product name.
+- Wholesale price.
+- SKU, when available.
+- Actual stock status, when inventory is connected.
+- Colour selection.
+- Size selection.
+- MOQ information.
+- Quantity controls.
+- Wholesale order matrix.
+- Total selected quantity.
+- Total order price.
+- Add to Cart button.
+- Buy Now or Proceed to Checkout button.
+
+Below the main product section, include:
+- Product description.
+- Material and fabric information, if provided.
+- Size guide.
+- Shipping information.
+- Wholesale ordering FAQ.
+- Related products.
+
+Use a clean white background, black typography, subtle borders, and restrained styling.
+
+### Mobile layout
+
+Stack the product gallery above the product information.
+
+Make all colour swatches, size controls, quantity inputs, and cart buttons easy to use on touchscreens.
+
+Do not make the customer scroll through an unnecessarily long description before reaching the ordering controls.
+
+---
+
+## 9. CRITICAL WHOLESALE ORDERING RULES
+
+Implement the following exact business requirements.
+
+### A. Minimum Order Quantity
+
+**MOQ: 24 pieces per product order.**
+
+This is a real functional requirement, not merely a label.
+
+Display a prominent but elegant badge:
+
+"MINIMUM ORDER: 24 PIECES"
+
+### B. Available sizes
+
+Use these exact sizes:
+
+- 30
+- 32
+- 34
+- 36
+
+Do not substitute M, L, XL, XXL for these numeric sizes.
+
+Display the numeric sizes clearly on the product page and in the cart.
+
+### C. Available colours
+
+Use these exact initial colour options:
+
+1. Dark Blue
+2. Mid Blue
+3. Light Blue
+
+Display both the colour name and an appropriate colour swatch.
+
+Suggested starting swatch values:
+- Dark Blue: #172B50
+- Mid Blue: #4775A5
+- Light Blue: #B4CFEB
+
+These are interface approximations only. Use the supplied product photographs as the authoritative representation of the actual clothing colours.
+
+Allow administrators to change colour names and swatch values later.
+
+### D. Standard size ratio
+
+The standard size ratio is:
+
+**2-2-2-2**
+
+This means two pieces in each of the four sizes for every selected colour.
+
+### E. Exact default 24-piece pack
+
+For Dark Blue:
+- Size 30: 2 pieces.
+- Size 32: 2 pieces.
+- Size 34: 2 pieces.
+- Size 36: 2 pieces.
+- Total: 8 pieces.
+
+For Mid Blue:
+- Size 30: 2 pieces.
+- Size 32: 2 pieces.
+- Size 34: 2 pieces.
+- Size 36: 2 pieces.
+- Total: 8 pieces.
+
+For Light Blue:
+- Size 30: 2 pieces.
+- Size 32: 2 pieces.
+- Size 34: 2 pieces.
+- Size 36: 2 pieces.
+- Total: 8 pieces.
+
+**Total order: 24 pieces.**
+
+| Size | Dark Blue | Mid Blue | Light Blue | Total |
+|---|---:|---:|---:|---:|
+| 30 | 2 | 2 | 2 | 6 |
+| 32 | 2 | 2 | 2 | 6 |
+| 34 | 2 | 2 | 2 | 6 |
+| 36 | 2 | 2 | 2 | 6 |
+| Total | 8 | 8 | 8 | 24 |
+
+### F. Standard pack button
+
+Add a prominent button:
+
+"SELECT STANDARD PACK — 24 PCS"
+
+When clicked, it should populate the complete standard pack:
+- 8 Dark Blue pieces.
+- 8 Mid Blue pieces.
+- 8 Light Blue pieces.
+
+Every colour must contain two pieces in sizes 30, 32, 34, and 36.
+
+Update the quantity breakdown, total piece count, and total price immediately.
+
+### G. Wholesale quantity matrix
+
+Create a clear, easy-to-use matrix on the product page.
+
+Suggested structure:
+
+| Colour | Size 30 | Size 32 | Size 34 | Size 36 | Total |
+|---|---:|---:|---:|---:|---:|
+| Dark Blue | 2 | 2 | 2 | 2 | 8 |
+| Mid Blue | 2 | 2 | 2 | 2 | 8 |
+| Light Blue | 2 | 2 | 2 | 2 | 8 |
+| Total | 6 | 6 | 6 | 6 | 24 |
+
+Use interactive quantity inputs in place of static numbers.
+
+The customer must be able to see and edit the quantities when flexible ordering is enabled.
+
+### H. MOQ validation
+
+Implement all of these rules:
+
+1. A product order containing fewer than 24 pieces cannot proceed to checkout.
+2. Display a live quantity counter, for example, "16 / 24 pieces selected".
+3. Display how many additional pieces are needed to meet the MOQ.
+4. Show a helpful message such as "Add 8 more pieces to meet the minimum order".
+5. Recalculate the total quantity and total price immediately after any change.
+6. Preserve all colour, size, and quantity selections when adding products to the cart.
+7. Revalidate MOQ requirements in the cart and during checkout.
+8. Do not rely solely on client-side validation.
+9. Never silently change the quantities selected by the customer.
+10. Validate variant stock when actual inventory data is connected.
+11. Prevent quantities from exceeding available stock.
+12. Display useful error messages for invalid quantities.
+13. Support quantities above 24 according to the configured pack rules.
+14. Do not allow a customer to bypass validation by adding the same product multiple times.
+15. Calculate totals using the actual configured wholesale prices.
+
+### I. Fixed packs versus flexible orders
+
+Make the ordering method configurable per product.
+
+**Mode 1: Fixed standard pack**
+- The customer orders the predefined 24-piece pack.
+- Each colour follows the 2-2-2-2 size ratio.
+- The customer can add multiple complete packs if inventory permits.
+
+**Mode 2: Flexible wholesale order**
+- The customer selects individual quantities by colour and size.
+- The total must satisfy the configured MOQ.
+- The default MOQ is 24 pieces.
+- The administrator may configure any additional size-ratio restrictions.
+
+Do not assume all future products will use the same colours, sizes, ratios, or MOQ.
+
+---
+
+## 10. WHOLESALE PRICING
+
+Display wholesale prices clearly on product cards, product pages, and the cart.
+
+Use BDT throughout the website.
+
+Example format:
+"৳1,250 / piece"
+
+This is only a formatting example. Do not use this as an actual product price unless supplied by the business.
+
+Support:
+- Fixed wholesale price per piece.
+- Optional quantity-based price tiers.
+- Optional minimum quantities for price tiers.
+- Automatic subtotal recalculation.
+- Product-level pricing configuration.
+
+If tiered pricing is enabled, show the applicable price clearly.
+
+For example, the administrator might configure:
+- 24–47 pieces: standard wholesale price.
+- 48–95 pieces: discounted wholesale price.
+- 96+ pieces: further discounted wholesale price.
+
+These are example tiers only, not confirmed business pricing.
+
+Always calculate the total from the actual configured price and quantity.
+
+Do not invent shipping charges, taxes, discounts, or payment fees.
+
+---
+
+## 11. SHOPPING CART
+
+Build a functional cart that preserves all selected variants.
+
+Display:
+- Product image.
+- Product name.
+- Unit wholesale price.
+- Selected colour.
+- Quantity for each size.
+- Quantity subtotal for each colour.
+- Total product quantity.
+- Line-item subtotal.
+- Cart subtotal.
+- Shipping information, if configured.
+- Edit order button.
+- Remove product button.
+- MOQ validation messages.
+
+For example:
+
+**Product: Sample Clothing Product**
+
+Dark Blue — 8 pcs
+- Size 30: 2
+- Size 32: 2
+- Size 34: 2
+- Size 36: 2
+
+Mid Blue — 8 pcs
+- Size 30: 2
+- Size 32: 2
+- Size 34: 2
+- Size 36: 2
+
+Light Blue — 8 pcs
+- Size 30: 2
+- Size 32: 2
+- Size 34: 2
+- Size 36: 2
+
+Order total: 24 pieces.
+
+Display the real calculated subtotal and the MOQ status.
+
+Allow the customer to edit their selection without losing the remaining product information.
+
+Ensure the cart does not incorrectly merge products with different variants or pricing configurations.
+
+Persist cart contents appropriately. Use a real backend or a clearly identified temporary cart implementation if backend integration is not yet configured.
+
+---
+
+## 12. CHECKOUT AND WHOLESALE ORDER REQUEST
+
+Create a clear, professional checkout flow.
+
+Collect the information needed to process a wholesale order:
+
+- Customer name.
+- Business or shop name, where applicable.
+- Contact person's name.
+- Phone number.
+- Email address.
+- Delivery address.
+- City and district.
+- Optional business details.
+- Additional order notes.
+
+Show:
+- Product summary.
+- Colour and size breakdown.
+- Total pieces.
+- Wholesale price.
+- Subtotal.
+- Configured delivery charges, if available.
+- Final payable amount or quote status.
+
+Validate required fields and show useful errors.
+
+Recheck stock, price, MOQ, and variant quantities before accepting an order.
+
+### Payment integration
+
+Do not pretend payments have been processed.
+
+If the client has a payment gateway, integrate it using its official supported method and secure server-side verification.
+
+If payment credentials are not yet available, build a clearly labelled order-request flow or test mode and identify what must be configured before launch.
+
+Do not invent merchant credentials, payment confirmations, or transaction IDs.
+
+### Order confirmation
+
+After a successful order submission, show:
+- Order reference generated by the backend.
+- Product and variant summary.
+- Total quantity.
+- Price summary or quote status.
+- Next steps for the customer.
+
+Only show an order as confirmed after it has actually been saved successfully.
+
+---
+
+## 13. REQUEST A WHOLESALE QUOTE
+
+Add a "REQUEST A WHOLESALE QUOTE" option for buyers who prefer to discuss their order before confirming it.
+
+Include fields for:
+- Name.
+- Business name.
+- Phone number.
+- Email address.
+- Products of interest.
+- Estimated quantity.
+- Preferred colours.
+- Preferred sizes.
+- Additional notes.
+
+Validate the form and show a confirmation state after successful submission.
+
+Save requests to the connected backend if configured.
+
+Otherwise, clearly mark the backend integration as pending.
+
+If the client supplies a verified WhatsApp business number, provide a WhatsApp contact button. Never invent the phone number.
+
+---
+
+## 14. CUSTOMER ACCOUNTS
+
+If authentication is configured, support:
+- Registration.
+- Login and logout.
+- Password recovery.
+- Customer profile.
+- Saved delivery information.
+- Order history.
+- Order detail view.
+- Order status tracking.
+
+If accounts are not required for launch, allow guest checkout where the configured business process supports it.
+
+Never expose one customer's order information to another customer.
+
+Protect account data using appropriate authorization and database policies.
+
+---
+
+## 15. ABOUT, CONTACT, FAQ, AND POLICY PAGES
+
+Create the following pages with the same design system:
+
+### About Us
+A concise introduction to Ten Tacles BD, its clothing collections, and its wholesale business.
+
+### Contact Us
+Include editable business contact details and a working validated inquiry form.
+
+### Wholesale FAQ
+Answer configurable questions about:
+- MOQ.
+- Standard size ratio.
+- Available colours.
+- Wholesale pricing.
+- Bulk orders.
+- Delivery.
+- Payment.
+- Returns and exchanges.
+
+Do not invent policies. Mark unconfirmed details as placeholders until the client provides them.
+
+### Privacy Policy
+Create a clearly labelled draft that the business can review and finalize.
+
+### Terms and Conditions
+Include a draft covering orders, payment, pricing, and cancellations, subject to business and legal review.
+
+### Shipping and Returns
+Use editable policy content. Do not make unsupported delivery promises.
+
+---
+
+## 16. PRODUCT DATA MODEL
+
+Create a reusable product catalogue structure that supports:
+
+- Product ID.
+- Product name.
+- Slug.
+- Description.
+- Category.
+- Product images.
+- SKU.
+- Wholesale price.
+- Optional tiered prices.
+- Available colours.
+- Colour-specific images.
+- Available numeric sizes.
+- Variant-level SKU.
+- Variant-level stock.
+- MOQ.
+- Standard pack configuration.
+- Pack ratio.
+- Fixed-pack or flexible-order mode.
+- Featured status.
+- New-arrival status.
+- Active/inactive status.
+
+For the initial applicable products, configure:
+
+- Sizes: 30, 32, 34, 36.
+- Colours: Dark Blue, Mid Blue, Light Blue.
+- MOQ: 24 pieces.
+- Standard ratio: 2-2-2-2 per colour.
+- Standard pack: 24 pieces total.
+
+Make these settings editable rather than hardcoding them throughout the application.
+
+Keep sample products clearly distinguishable from actual inventory.
+
+---
+
+## 17. ADMIN DASHBOARD
+
+Build a protected admin area if the backend environment supports it.
+
+The admin dashboard should allow authorized staff to:
+
+- Add, edit, and deactivate products.
+- Upload and manage product photos.
+- Organize categories and collections.
+- Set product descriptions.
+- Manage wholesale prices.
+- Configure quantity-based price tiers.
+- Manage colours and sizes.
+- Set product-level MOQ.
+- Set fixed pack ratios.
+- Enable fixed-pack or flexible ordering.
+- Manage inventory for each variant.
+- View customer orders.
+- Update order statuses.
+- View wholesale quote requests.
+- Manage customer information appropriately.
+- Configure featured products and new arrivals.
+- Update homepage banners and content.
+
+Include a clean, functional admin interface, but do not make the public-facing site look like a dashboard.
+
+Protect all admin routes and database operations using server-side authorization.
+
+Do not expose service-role keys or private credentials in frontend code.
+
+If a backend cannot be connected immediately, clearly identify which features are frontend-only and what must be completed for production.
+
+---
+
+## 18. BACKEND AND DATABASE
+
+Preferred technology stack:
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Reusable components.
+- Lucide icons.
+- Supabase for database, authentication, and image storage if supported by the project environment.
+
+Design suitable database structures for:
+- Products.
+- Categories.
+- Product images.
+- Colour variants.
+- Size variants.
+- Inventory.
+- Wholesale pricing.
+- Pack rules.
+- Customers.
+- Cart items.
+- Orders.
+- Order items.
+- Order variant quantities.
+- Wholesale quote requests.
+
+Ensure that each order retains its complete product, colour, size, quantity, and price breakdown.
+
+Use server-side validation for important business rules, including MOQ, inventory, pricing, and order submission.
+
+Use suitable database access policies and authenticated permissions.
+
+Do not claim that a backend feature works unless it has been implemented and connected.
+
+If backend setup requires credentials or user authorization, finish the frontend first and clearly list the remaining setup steps.
+
+---
+
+## 19. IMAGE MANAGEMENT
+
+I will supply product photos, category photos, and other relevant images.
+
+Use these assets consistently across:
+- Homepage hero.
+- Category tiles.
+- Product cards.
+- Product detail galleries.
+- Related products.
+- Wholesale promotional banners.
+
+Requirements:
+- Preserve the actual appearance of the garments.
+- Avoid stretching images.
+- Use suitable aspect ratios.
+- Keep product photography visually consistent.
+- Use appropriate object-fit and object-position.
+- Optimize large images for fast loading.
+- Use mobile-friendly image crops.
+- Avoid showing unrelated products in place of supplied product images.
+
+Make image assets easy to replace later.
+
+If a particular image is missing, use a neutral placeholder rather than an unrelated product photograph.
+
+---
+
+## 20. RESPONSIVE DESIGN
+
+The website must work across desktop, tablet, and mobile.
+
+### Desktop
+- Wide hero banner.
+- Four-column product grid.
+- Two-column product detail page.
+- Clear navigation.
+- Generous whitespace.
+
+### Tablet
+- Responsive two- or three-column product grids.
+- Adjusted hero cropping.
+- Compact navigation.
+- Properly sized product controls.
+
+### Mobile
+- Compact header.
+- Responsive hero.
+- Two-column product cards where practical.
+- Touch-friendly buttons.
+- Mobile filter drawer.
+- Stacked product detail layout.
+- Easy-to-use size and colour quantity matrix.
+- Clearly visible MOQ and order total.
+- Responsive cart and checkout forms.
+
+Prevent horizontal overflow, clipped text, overlapping elements, and tiny touch targets.
+
+---
+
+## 21. PERFORMANCE, ACCESSIBILITY, AND SEO
+
+Implement:
+- Fast-loading pages.
+- Optimized images.
+- Lazy loading for below-the-fold images.
+- Accessible image alt text.
+- Keyboard-accessible navigation.
+- Visible focus states.
+- Good text contrast.
+- Proper form labels.
+- Useful error messages.
+- Page-specific titles and meta descriptions.
+- Search-engine-friendly URLs.
+- Basic product structured data where appropriate.
+- Loading states.
+- Empty states.
+- Error states.
+- Success states.
+
+Use clean, maintainable TypeScript and reusable components.
+
+Avoid unnecessary dependencies and repeated implementations of the same functionality.
+
+---
+
+## 22. REQUIRED WEBSITE PAGES
+
+Build these pages:
+
+1. Home.
+2. All Products.
+3. New Arrivals.
+4. Best Sellers.
+5. Product Category / Collection.
+6. Individual Product Details.
+7. Search Results.
+8. Shopping Cart.
+9. Checkout.
+10. Wholesale Quote Request.
+11. Customer Account.
+12. Order History.
+13. About Us.
+14. Contact Us.
+15. Wholesale FAQ.
+16. Privacy Policy.
+17. Terms and Conditions.
+18. Shipping and Returns.
+19. Protected Admin Dashboard, when backend support is configured.
+
+All customer-facing pages must use the same premium Ten Tacles BD design system.
+
+---
+
+## 23. TESTING AND ACCEPTANCE REQUIREMENTS
+
+Before considering the website complete, test the following:
+
+### Design
+- Homepage layout closely follows the supplied Dorjibari reference screenshots.
+- Hero banner, image tiles, product cards, and product details use the intended proportions.
+- Product images display correctly.
+- Navigation works across screen sizes.
+
+### Wholesale pack
+- Selecting the standard pack creates exactly 24 pieces.
+- Each colour contains 8 pieces.
+- Every colour has 2 pieces in sizes 30, 32, 34, and 36.
+- The total across the three colours equals 24 pieces.
+
+### MOQ
+- A quantity below 24 is rejected where the configured MOQ applies.
+- The quantity counter updates immediately.
+- The remaining quantity is calculated correctly.
+- Cart and checkout revalidate the MOQ.
+- Duplicate cart additions cannot bypass validation.
+- Valid quantities above 24 are supported according to the configured pack rules.
+
+### Pricing
+- Unit prices are accurate.
+- Subtotals and totals recalculate correctly.
+- Tiered pricing, if enabled, uses the configured rules.
+- No fabricated charges or discounts appear.
+
+### Variants and stock
+- Colour and size selections persist.
+- Inventory is checked when connected.
+- Unavailable variants cannot be ordered.
+- Cart edits preserve the other selections.
+
+### Backend
+- Orders are actually persisted before being confirmed.
+- Admin access is protected.
+- Customer data is appropriately secured.
+- Errors are handled without falsely reporting success.
+
+### Final rule
+
+Do not leave nonfunctional buttons, dead links, fake checkout success messages, or decorative controls that appear to work but do nothing.
+
+If any external service requires credentials, clearly identify the required configuration.
+
+---
+
+## 24. DEVELOPMENT PRIORITIES
+
+Build the project in the following order:
+
+**Phase 1:** Establish the visual design system, branding, header, homepage hero, category tiles, and product grids.
+
+**Phase 2:** Build the product detail page to match the third reference screenshot.
+
+**Phase 3:** Implement the exact wholesale configuration: numeric sizes 30, 32, 34, 36; Dark Blue, Mid Blue, Light Blue; the 2-2-2-2 ratio; and the 24-piece MOQ.
+
+**Phase 4:** Build the cart, quantity validation, checkout, and wholesale quote flow.
+
+**Phase 5:** Connect the backend, database, inventory, order management, and admin features where supported.
+
+**Phase 6:** Complete all remaining pages, responsive layouts, accessibility, SEO, and testing.
+
+Prioritize visual accuracy, working wholesale ordering logic, and a premium shopping experience.
+
+The final result must be a cohesive, functional wholesale fashion e-commerce website for TEN TACLES BD that closely follows the uploaded Dorjibari reference screenshots while implementing the exact wholesale ordering rules specified above.
